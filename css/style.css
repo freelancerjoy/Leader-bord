@@ -140,12 +140,14 @@ main {
 
 /* Latest Course section 
 ------------------------ */
-.single-course img {
-    width: 225px;
-    height: 105px;
-}
 .letest-curse-section{
     padding: 30px;
+}
+.course-tittle {
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 24px;
 }
 .al-latest-course{
     display: grid;
@@ -158,11 +160,9 @@ main {
     padding: 10px;
     filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
-.course-tittle {
-    color: #562EFF;
-    font-weight: 500;
-    font-size: 24px;
-    margin-bottom: 24px;
+.single-course img {
+    width: 225px;
+    height: 105px;
 }
 .couse-text h3 {
     color: #1E1E1E;
@@ -202,4 +202,31 @@ main {
     font-size: 14;
     color: #FF4A60;
     font-weight: 500;
+ }
+.hide {
+    display: none;
+}
+ /* MEDIA queary for responsive my web site 
+ ------------------------------------------ */
+ @media only screen and (max-width:577px) {
+    .nav .container, .player{
+        flex-direction: column;
+    }
+    .logo-text {
+        margin: auto;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .navbar-manu-links{
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+    .top-player-section .top-all-players {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .top-all-players .player .player-name {
+        margin: 0;
+    }
  }
