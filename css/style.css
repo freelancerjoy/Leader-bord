@@ -229,4 +229,11 @@ main {
     .top-all-players .player .player-name {
         margin: 0;
     }
+    .blog-article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .singl-article {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
  }
