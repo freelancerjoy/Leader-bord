@@ -236,4 +236,9 @@ main {
         flex-direction: column;
         margin-bottom: 15px;
     }
+    .al-latest-course {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        grid-row-gap: 20px;
+    }
  }
